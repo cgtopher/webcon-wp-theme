@@ -1,0 +1,138 @@
+/*
+Theme Name: Web Con Theme
+Author: Chris Gaunt
+Author URI: gauntdev.com
+Version: 1.0
+*/
+
+/* General and Global */
+body{
+    background-image: url("img/tux.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.clearfix:before, .clearfix:after{content: ""; display: table; }
+.clearfix:after{ clear: both;}
+.clearfix { *zoom: 1; }
+
+a:link, a:visited{
+    text-decoration: none;
+    color: #d8af70;
+}
+
+div.img-container{
+    background-image: url("img/concierge.png") ;
+    background-repeat: no-repeat;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+div.container{
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: 'Tinos', Arial, sans-serif;
+}
+
+/* Header Menu Nav */
+
+.site-nav{
+    background-color: #871212;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-nav img.homebutton{
+    display: table;
+    float: left;
+    height: 27px;
+    padding-top: 4px;
+    padding-left: 12px;
+    padding-right: 8px;
+}
+
+.site-nav img.social{
+    display: table;
+    float: right;
+    height: 33px;
+    padding-right: 7px;
+}
+
+.site-nav img.homebutton:hover{
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg); 
+}
+
+.site-nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav ul:before, .site-nav ul:after{ content: ""; display: table; }
+.site-nav img.social:after { clear: both; }
+.site-nav ul { *zoom: 1; }
+
+.site-nav ul li:first-of-type{
+    border-left: 2.5px solid #4b1818;
+}
+
+.site-nav ul li{
+    font-family: 'Playfair Display';
+    list-style: none;
+    float: left;
+    padding: 7px;
+    border-right: 2.5px solid #4b1818;
+}
+
+.site-nav p{104064
+    float: right;
+}
+
+
+
+.site-nav ul li:hover{
+    background-color: #461818;
+    color: antiquewhite;
+}
+
+/* Header */
+
+.site-head h1 {
+    margin-top: 180px;
+    margin-left: 12px;
+}
+
+.site-head h1 a:link,
+.site-head h1 a:visited{
+    color: #E6C200;
+}
+
+.site-head h5{
+    margin-left: 12px;
+    margin-top: -15px;
+    color: #d8af70;
+}
+
+/* Footer */
+
+.footer-nav ul:before, .footer-nav ul:after{ content: ""; display:'table';}
+.footer-nav ul:after { clear: both; }
+.footer-nav ul{ *zoom: 1; }
+
+.footer-nav ul li{
+    margin-right: 7px;
+    list-style: none;
+    border-right: 1.5 dotted black;
+    float: left;
+}
+
+
+/* Articles and Content */
+
+article.post {
+    border-bottom: 3px solid #4b1818;
+    background-color: lightgray;
+    margin-top: 12px;
+    padding: 15px;
+}
